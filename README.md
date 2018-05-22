@@ -1,22 +1,46 @@
-# Origami App
+# Origami App - Microsoft Academy 101
 
 This app demonstrates core Windows Mixed Reality features on HoloLens including
-gaze, gestures, voice input, spatial sound and spatial mapping.
+gaze, gestures, voice input, spatial sound and spatial mapping. A 3D hologram of an origami
+setup is placed in front of the user. The user will be able to interact with the model through
+the following:
+
+* Gaze: The cursor follows your gaze and lands on object for you to interact with it.
+* Gesture: Do an air gesture on the floating balls to make it fall.
+* Voice Input: You can also say "Drop Sphere" to make the balls drop. You can also say "Reset World"
+to reset the model to original position.
+* Spatial Sound: The background music comes from the object through spatial sound.
+* Spatial Mapping: You can see the room mapped out in white triangles.
+
 
 ## Getting Started
 
-Clone the repository into your local machine.
-For deployment, go to App folder and open Origami.sln in Visual Studio.
-
 ### Prerequisites
 
-For editing purposes: Unity 2017.3.1p4, Microsoft Visual Studio 2017
-For deployment purposes: Microsoft Visual Studio 2017
+* Unity 2017.3.1p4
+* Microsoft Visual Studio 2017
+
+
+## Building the Project
+
+* Clone this repository into your local machine. This repository only contains "Assets" and "Project Settings"
+* Open Unity, and load files as new project
+* Open the Scene "Main"
+* Go to File > Build settings
+* Add Open Scenes into the Windows
+* Select Universal Windows Platform on the left and click "Switch PLatform"
+* Ensure "Unity C# Projects" is ticked
+* Click on Build
+* In the root folder, create a folder called "App" and build the solution there.
+
 
 ## Deployment
 
-Deployment should be done from its solution file in App folder. Select "Release" and
-"x86" from the top bar.
+Deployment should be done from its solution file in App folder.
+
+* After the build, open the solution in the App folder in Visual Studio
+* Open the "hologram-101.sln in Visual Studio 2017
+* Select "Release" and "x86" from the top bar
 
 ### Using HoloLens Emulator
 
@@ -31,9 +55,11 @@ be found in the Settings of the HoloLens, under "Network & Internet > Advanced S
 
 If app has been deployed before, you can automatically launch the app from the HoloLens.
 
+
 ## Authors
 
 * **Zaki Pauzi** - *Initial work* - [ZakiPauzi](https://github.com/zakipauzi)
+
 
 ## License
 
