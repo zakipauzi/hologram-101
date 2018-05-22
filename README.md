@@ -5,12 +5,12 @@ gaze, gestures, voice input, spatial sound and spatial mapping. A 3D hologram of
 setup is placed in front of the user. The user will be able to interact with the model through
 the following:
 
-* Gaze: The cursor follows your gaze and lands on object for you to interact with it.
-* Gesture: Do an air gesture on the floating balls to make it fall.
+* Gaze: The cursor follows your gaze and lands on object for you to interact with it
+* Gesture: Do an air gesture on the floating balls to make it fall
 * Voice Input: You can also say "Drop Sphere" to make the balls drop. You can also say "Reset World"
-to reset the model to original position.
-* Spatial Sound: The background music comes from the object through spatial sound.
-* Spatial Mapping: You can see the room mapped out in white triangles.
+to reset the model to original position
+* Spatial Sound: The background music comes from the object through spatial sound
+* Spatial Mapping: You can see the room mapped out in white triangles
 
 
 ## Getting Started
@@ -28,10 +28,10 @@ to reset the model to original position.
 * Open the Scene "Main"
 * Go to File > Build settings
 * Add Open Scenes into the Windows
-* Select Universal Windows Platform on the left and click "Switch PLatform"
+* Select Universal Windows Platform on the left and click "Switch Platform"
 * Ensure "Unity C# Projects" is ticked
 * Click on Build
-* In the root folder, create a folder called "App" and build the solution there.
+* In the root folder, create a folder called "App" and build the solution there
 
 
 ## Deployment
@@ -58,7 +58,7 @@ If app has been deployed before, you can automatically launch the app from the H
 
 ## Authors
 
-* **Zaki Pauzi** - *Initial work* - [ZakiPauzi](https://github.com/zakipauzi)
+* **Zaki Pauzi** - *Initial work* - [zakipauzi](https://github.com/zakipauzi)
 
 
 ## License
